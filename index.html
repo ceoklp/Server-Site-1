@@ -7,6 +7,7 @@
     <!-- Here you can edit the page title: -->
     <title>Server-Name</title>
 
+    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter@1.1.1/dist/mc-player-counter.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -30,7 +31,16 @@
                         <a class="nav-link" href="index.html">Start <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
+
+                        <!-- Replace the "#" with your Forum-URL:-->
                         <a class="nav-link" href="#">Forum</a>
+
+                    </li>
+                    <li class="nav-item">
+
+                        <!-- Replace the "#" with your Shop-URL:-->
+                        <a class="nav-link" href="#">Shop</a>
+
                     </li>
                 </ul>
             </div>
@@ -38,18 +48,36 @@
     </div>
     <div id="Homesite">
 
-        <!-- Here you can edit the title-line and the Slogan: -->
-        <span>Server-Name.de</br>
-        Your Place to Play</span>
-        <div id="Button">
+            <!-- Here you can edit the title-line and the Slogan: -->
+            <span>Server-Name.de</br>
+            Your Place to Play</span>
+            <div id="Button">
 
-            <!-- Here you can edit the Server-IP: -->
-            <p> IP:  <b>mc.Server-Name.de</b> </p>
+                <!-- Here you can edit the Server-IP: -->
+                <p> IP:  <b>mc.Server-Name.de</b> </p>
+            </div>
+
+        <div id="Button2">
+
+            <!-- Here you can edit the Server-IP for the Player Counter: -->
+            <p>Es ist/sind momentan <b><span data-playercounter-ip="mc.hypixel.net">0</span></b> User online.
         </div>
+    </div>
+    <div id="Sitebar">
+        <a class="twitter-timeline" data-width="400" data-height="600" data-theme="light" href="https://twitter.com/mc4freeDE?ref_src=twsrc%5Etfw">Tweets by mc4freeDE</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
     <footer>
-
-        <!-- Please don't remove this Watermark, it was hard work to create this Site. -->
-        <p> Coded by <a href="https://twitter.com/kxmoAPI">kxmoAPI</a></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <p><a href="impressum.html" style="text-decoration: none; color: black">Impressum</a></p>
+                </div>
+                <div class="col-sm">
+                    <!-- Please don't remove this Watermark, it was hard work to create this Site. -->
+                    <p> Coded by <a href="https://twitter.com/kxmoAPI" style="text-decoration: none;">kxmoAPI</a></p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
